@@ -3,6 +3,7 @@ from random import randint
 result=randint(1,6)
 while(True):
     result = randint(1,6)
+    # This will pick a random number between 1 and 6.
     if(result==1):
         print(' ----------')
         print('|          |')
